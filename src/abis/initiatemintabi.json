@@ -1,0 +1,55 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_mailbox",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_mintCost",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "_from",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes",
+				"name": "_value",
+				"type": "bytes"
+			}
+		],
+		"name": "Executed",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint32",
+				"name": "_destinationDomain",
+				"type": "uint32"
+			},
+			{
+				"internalType": "address",
+				"name": "_recipient",
+				"type": "address"
+			}
+		],
+		"name": "initiateMint",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	}
+]
